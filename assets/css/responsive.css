@@ -1,0 +1,104 @@
+@media all and (min-width:1200px){
+    .header-center .primary-menu {
+        display: -webkit-box !important ;
+        display: -ms-flexbox !important ;
+        display: flex !important ;
+    }
+}
+@media all and (max-width:1200px){
+    .header-center .primary-menu {
+        display: none;
+        position: absolute;
+        width: 100% ;
+        background: #ECF0F3;
+        box-shadow: 10px 10px 19px rgba(0, 0, 0, 0.1);
+        left: 0;
+        top: 90px;
+        height: 100vh;
+    }
+    .primary-menu li {
+        padding: 10px 0;
+        border-bottom: 1px solid #ff014f;
+        margin: 0 8px;
+    }
+    .primary-menu li:last-child{
+        border-bottom: none;
+    }
+    .primary-menu li a{
+        color: #000;
+    }
+    .header-btn{
+        display: none;
+    }
+    .menu-btn{
+        display: block;
+    }
+}
+@media all and (max-width:990px){
+    /* About Area */
+    .about-left {
+        margin-right: 0;  
+    }
+    .about-left {
+        margin-bottom: 2rem;
+    }
+    /* Provide Area */
+    .mt--3{
+        margin-top: 3rem;
+    }
+    .order{
+        -webkit-box-ordinal-group: 0;
+            -ms-flex-order: -1;
+                order: -1;
+        margin-bottom: 3rem;
+    }
+    /* Partner Area */
+    .single-partner {
+        -webkit-box-flex: 0;
+            -ms-flex: 0 0 calc(50% - 30px);
+                flex: 0 0 calc(50% - 30px);
+    }
+    /* Footer Area */
+    .footer-wiget {
+        margin-top: 3rem;
+    }
+}
+@media all and (max-width:768px){
+    .portfolio-area .owl-nav .owl-prev{
+        left: 0;
+        top: 104%;
+    }
+    .portfolio-area .owl-nav .owl-next{
+        right: auto;
+        left: 15%;
+        top: 104%;
+    }
+    /* Testimonials */
+    .testi-head .testi-img img {
+        max-width: 60px; 
+        width: 60px;
+    }
+    .single-testi{
+        padding: 20px 30px;
+    }
+    .testimonials-area .owl-nav .owl-prev,
+    .testimonials-area .owl-nav .owl-next{
+        display: none;
+    }
+}
+@media all and (max-width:576px){
+    h1, h2 {
+        font-size: 4rem;
+    }
+    /* Bannar Area */
+    .bannar-contant p {
+        line-height: 3rem;
+    }
+     /* Partner Area */
+     .single-partner {
+        -webkit-box-flex: 0;
+            -ms-flex: 0 0 calc(100% - 30px);
+                flex: 0 0 calc(100% - 30px);
+    }
+    
+}
